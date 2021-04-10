@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".Mov_Rotatorio.DentsplySironaPackage.DentsplySirona_activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="226dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/bannersirona" />
+
+            <Button
+                android:id="@+id/ProtaperUniversal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/arredonda"
+                android:onClick="PropaterUniver"
+                android:text="ProtaperUniversal"
+                tools:layout_editor_absoluteX="41dp"
+                tools:layout_editor_absoluteY="231dp" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                app:srcCompat="@drawable/protaperuniversal"
+                 />
+
+            <Button
+                android:id="@+id/ProtaperNext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/arredonda"
+                android:onClick="ProtaperNextFun"
+                android:text="ProtaperNext"
+                tools:layout_editor_absoluteX="146dp"
+                tools:layout_editor_absoluteY="279dp" />
+
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                app:srcCompat="@drawable/protapernext"
+                 />
+
+            <Button
+                android:id="@+id/ProtaperGold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/arredonda"
+                android:onClick="ProtaperGoldFun"
+                android:text="ProtaperGold"
+                 />
+
+            <ImageView
+                android:id="@+id/im2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                app:srcCompat="@drawable/protapergold"
+                />
+
+            <Button
+                android:id="@+id/TruNatomy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="TruNatomyFun"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/arredonda"
+                android:text="TruNatomy"
+                tools:layout_editor_absoluteX="34dp"
+                tools:layout_editor_absoluteY="341dp" />
+
+
+            <ImageView
+                android:id="@+id/im3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/trunatomy"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

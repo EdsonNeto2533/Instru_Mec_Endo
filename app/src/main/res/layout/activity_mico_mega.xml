@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Mov_Rotatorio.MicoMegaPackage.MicoMegaActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/micromegabanner" />
+
+            <Button
+                android:id="@+id/RevoS"
+                android:layout_width="match_parent"
+                android:layout_marginRight="50dp"
+                android:layout_height="wrap_content"
+                android:text="RevoS"
+                android:onClick="RevoSFun"
+                tools:layout_editor_absoluteX="59dp"
+                tools:layout_editor_absoluteY="200dp" />
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="80dp"
+                app:srcCompat="@drawable/revos"
+                tools:layout_editor_absoluteX="31dp"
+                tools:layout_editor_absoluteY="347dp" />
+
+            <Button
+                android:id="@+id/HeroShaper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HeroShaper"
+                android:layout_marginRight="50dp"
+                android:onClick="HeroShaperFun"
+                tools:layout_editor_absoluteX="59dp"
+                tools:layout_editor_absoluteY="200dp" />
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="80dp"
+                app:srcCompat="@drawable/heroshaper"
+                tools:layout_editor_absoluteX="31dp"
+                tools:layout_editor_absoluteY="347dp" />
+
+            <Button
+                android:id="@+id/Oneshape"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Oneshape"
+                android:onClick="OneshapeFun"
+                android:layout_marginRight="50dp"
+                tools:layout_editor_absoluteX="59dp"
+                tools:layout_editor_absoluteY="200dp" />
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="80dp"
+                app:srcCompat="@drawable/oneshape"
+                tools:layout_editor_absoluteX="31dp"
+                tools:layout_editor_absoluteY="347dp" />
+
+            <Button
+                android:id="@+id/Shape"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2 Shape"
+                android:onClick="ShapeFun"
+                android:layout_marginRight="50dp"
+                tools:layout_editor_absoluteX="59dp"
+                tools:layout_editor_absoluteY="200dp" />
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="80dp"
+                app:srcCompat="@drawable/doisshape"
+                tools:layout_editor_absoluteX="31dp"
+                tools:layout_editor_absoluteY="347dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

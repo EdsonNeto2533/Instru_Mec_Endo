@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.instrumetaomecanizadaemendodontia">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.InstrumetaçãoMecanizadaEmEndodontia">
+        <activity android:name=".Mov_Reciprocante.Limas.uniconeActivity"></activity>
+        <activity android:name=".Mov_Reciprocante.Limas.proDesignRActivity" />
+        <activity android:name=".Mov_Reciprocante.Limas.wFileActivity" />
+        <activity android:name=".Mov_Reciprocante.Limas.x1BlueActivity" />
+        <activity android:name=".Mov_Reciprocante.Limas.recipBlueActivity" />
+        <activity android:name=".Mov_Reciprocante.Limas.waveActivity" />
+        <activity android:name=".Mov_Reciprocante.Limas.limasActivity" />
+        <activity android:name=".Mov_Reciprocante.Motores.motoresActivity" />
+        <activity android:name=".Mov_Reciprocante.MovReciActivity" />
+        <activity android:name=".Mov_Rotatorio.UniversoOdontoPackage.Univy3Activity" />
+        <activity android:name=".Mov_Rotatorio.UniversoOdontoPackage.UniversoOdontoActivity" />
+        <activity android:name=".Mov_Rotatorio.TDKPackage.XGrayActivity" />
+        <activity android:name=".Mov_Rotatorio.TDKPackage.XFILEActivity" />
+        <activity android:name=".Mov_Rotatorio.TDKPackage.UFILEActivity" />
+        <activity android:name=".Mov_Rotatorio.TDKPackage.TDKActivity" />
+        <activity android:name=".Mov_Rotatorio.VDWPackage.MTWOActivity" />
+        <activity android:name=".Mov_Rotatorio.VDWPackage.VDWActivity" />
+        <activity android:name=".Mov_Rotatorio.MedinPackage.NavigatorEVOActivity" />
+        <activity android:name=".Mov_Rotatorio.MedinPackage.MedinActivity" />
+        <activity android:name=".Mov_Rotatorio.MKLifePackage.SRFSequencyActivity" />
+        <activity android:name=".Mov_Rotatorio.MKLifePackage.ProTActivity" />
+        <activity android:name=".Mov_Rotatorio.MKLifePackage.MKLifeActivity" />
+        <activity android:name=".Mov_Rotatorio.SybronendoPackage.TFAdaptiveActivity" />
+        <activity android:name=".Mov_Rotatorio.SybronendoPackage.K3XFActivity" />
+        <activity android:name=".Mov_Rotatorio.SybronendoPackage.SybronendoActivity" />
+        <activity android:name=".Mov_Rotatorio.ColtenePackage.HyflexCMActivity" />
+        <activity android:name=".Mov_Rotatorio.ColtenePackage.ColteneActivity" />
+        <activity android:name=".Mov_Rotatorio.MicoMegaPackage.ShapeActivity" />
+        <activity android:name=".Mov_Rotatorio.MicoMegaPackage.OneshapeActivity" />
+        <activity android:name=".Mov_Rotatorio.MicoMegaPackage.HeroShaperActivity" />
+        <activity android:name=".Mov_Rotatorio.MicoMegaPackage.RevoSActivity" />
+        <activity android:name=".Mov_Rotatorio.MicoMegaPackage.MicoMegaActivity" />
+        <activity android:name=".Mov_Rotatorio.EasyPackage.ProDesignLogicActivity" />
+        <activity android:name=".Mov_Rotatorio.EasyPackage.FlexGoldActivity" />
+        <activity android:name=".Mov_Rotatorio.EasyPackage.ProDesignSActivity" />
+        <activity android:name=".Mov_Rotatorio.EasyPackage.EasyActivity" />
+        <activity android:name=".Mov_Rotatorio.FKGDentairePackage.BioRaceActivity" />
+        <activity android:name=".Mov_Rotatorio.FKGDentairePackage.IRaceActivity" />
+        <activity android:name=".Mov_Rotatorio.FKGDentairePackage.FKGDentaireActivity" />
+        <activity android:name=".Mov_Rotatorio.DentsplySironaPackage.TruNatomyActivity" />
+        <activity android:name=".Mov_Rotatorio.DentsplySironaPackage.ProtaperGoldActivity" />
+        <activity android:name=".Mov_Rotatorio.DentsplySironaPackage.ProtaperNextActivity" />
+        <activity android:name=".Mov_Rotatorio.DentsplySironaPackage.ProtaperUniversalActivity" />
+        <activity android:name=".Mov_Rotatorio.DentsplySironaPackage.DentsplySirona_activity" />
+        <activity android:name=".Mov_Rotatorio.Mov_Rotatorio_Actibity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
